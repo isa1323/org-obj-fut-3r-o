@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+
+
 :root{
-    --rosa escuro: #F2637E;
-    --rosa claro: #F28585;
-    
+    --botao-1: #F2637E;
+    --botao-2: #F28585;
+    --botao-3: #F2C6C2;
+    --botao-4-seg-fonte: #F2E8DF;
+    --fonte-cronometro: #A60522;
+    --cor-fundo-escura: rgba(58, 55, 94, 1);
+    --cor-fundo-clara: rgba(58, 55, 94, 0);
+    --primeira-fonte-tempo: #FFFFFF;
 }
