@@ -29,5 +29,8 @@ body{
     text-align: left;
     width: 100%;
     font-size: 28px;
+}
+.titulo-principal span{
+    color: var(--fonte-cronometro);
 
 }
