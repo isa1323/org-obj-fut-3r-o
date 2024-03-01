@@ -33,3 +33,9 @@ body{
 .titulo-principal span{
     color: var(--fonte-cronometro);
 }
+
+.botao{
+    font-family: 'Chakra Petch', Sans-Serif;
+    background-color: var(--botao-1);
+    color: var(--primeira-fonte-tempo);
+}
