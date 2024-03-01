@@ -49,3 +49,7 @@ body{
     border-right: 2px solid var(--fonte-cronometro);
     border-top: none;
 }
+.botao:first-child{
+    border-radius: 40px 0 0 0;
+
+}
