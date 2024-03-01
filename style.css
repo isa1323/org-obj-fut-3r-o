@@ -46,4 +46,6 @@ body{
     width: 100%;
     border-bottom: 4px solid var(--fonte-cronometro);
     border-left: 2px solid var(--fonte-cronometro);
+    border-right: 2px solid var(--fonte-cronometro);
+    border-top: none;
 }
