@@ -51,5 +51,7 @@ body{
 }
 .botao:first-child{
     border-radius: 40px 0 0 0;
-
+}
+.botao:lest-child{
+    border-radius: 40px 0 0 0;
 }
