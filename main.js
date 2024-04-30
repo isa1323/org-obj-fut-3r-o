@@ -17,6 +17,14 @@ const tempoObjetivo2 = new Date("2024-22-07T23:59:59");
 const tempoObjetivo3 = new Date("2024-25-11T23:59:59");
 const tempoObjetivo4 = new Date("2024-31-12T23:59:59");
 
+const tempos = [
+    tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4
+]
+
+for(let i=0; i< contadores.length; i++){
+    conatdores[i].textContent = calculaTempo(tempo[i]);
+}
+
 function calculaTempo(tempoobjectivo1){
     let tempoAtual = new Date();
     contadores[0].textContent = tempoObjetivo1 - tempoAtual;
