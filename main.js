@@ -22,11 +22,11 @@ const tempos = [
 ]
 
 for(let i=0; i< contadores.length; i++){
-    conatdores[i].textContent = calculaTempo(tempo[i]);
+    conatadores[i].textContent = calculaTempo(tempos[i]);
 }
 contadores[0].textContent = calculaTempo(tempoObjetivo1);
 
-function calculaTempo(tempoobjectivo1){
+function calculaTempo(tempoObjectivo1){
     let tempoAtual = new Date();
     let tempoFinal= tempoObjetivo1 - tempoAtual;
     let segundos = Math.floor(tempoFinal / 1000);
@@ -39,5 +39,5 @@ function calculaTempo(tempoobjectivo1){
     minutos %= 60;
     horas %= 24;
 
-    return dia + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
+    return dias + "dias" + horas + "horas" + minutos + "minutos" + segundos + "segundos";
 }
